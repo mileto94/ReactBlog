@@ -1,0 +1,38 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Simple blog developed with ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot",
+    "compile": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mileto94/ReactBlog.git"
+  },
+  "keywords": [
+    "blog",
+    "react",
+    "node",
+    "es6"
+  ],
+  "author": "Milka Ferezliyska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mileto94/ReactBlog/issues"
+  },
+  "homepage": "https://github.com/mileto94/ReactBlog#readme",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
